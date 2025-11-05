@@ -24,6 +24,8 @@ Las imágenes y este mismo archivo con su versión PDF deberán estar en GitHub.
 ![A1-3.png](A1-3.png)
 7. A2: Modifica la misma parte que A1 de manera que surja un coinflicto
 8. A1 y A2 : Subid los cambios y resolved el conflicto.
+![ERROR.png](ERROR.png)
+![solucion.png](solucion.png)
 9. A1:Investigad sobre la herramienta "CodeWithMe".  
 10. A2: Investigad sobre la herramienta "GitHubCopilot".
 
