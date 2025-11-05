@@ -19,7 +19,7 @@ Las imágenes y este mismo archivo con su versión PDF deberán estar en GitHub.
 4. A2: Descargad el repositorio de A1.
 ![img_1.png](A2-1.png)
 5. A2: Haced modificaciones en el código y subidlo mediante IntelliJ.
-
+![img.png](A2-2.png)
 6. A1: Descarga el programa actual y modifica una parte.
 7. A2: Modifica la misma parte que A1 de manera que surja un coinflicto
 8. A1 y A2 : Subid los cambios y resolved el conflicto.
