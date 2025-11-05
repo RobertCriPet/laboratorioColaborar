@@ -109,6 +109,6 @@ public class Main {
         }else{
             System.out.println("no es palindromo");
         }
-        System.out.println("Robert lo tiene mal");
+        System.out.println("TODO ESTÁ MAL");
     }
 }
