@@ -4,7 +4,7 @@ Esta práctica se realizará por parejas, pero ambos alumnos deberán de entrega
 
 Nombre Alumno1: Robert Cristian Petric Petric 
 
-Nombre Alumno2: Raúl Romero Pérez 
+Nombre Alumno2: Raúl Romero Pérez
 
 URL del repositorio:
 https://github.com/RobertCriPet/laboratorioColaborar.git
