@@ -7,7 +7,7 @@ Nombre Alumno1: Robert Cristian Petric Petric
 Nombre Alumno2: Raúl Romero Pérez 
 
 URL del repositorio:
-
+https://github.com/RobertCriPet/laboratorioColaborar.git
 El alumno 1 deberá rellenar los apartados que aparece A1, y el alumnos 2 en A2.  
 Las imágenes y este mismo archivo con su versión PDF deberán estar en GitHub.
 
@@ -41,6 +41,9 @@ Las imágenes y este mismo archivo con su versión PDF deberán estar en GitHub.
 En resumen, CodeWithMe transforma la colaboración en el desarrollo de software, permitiendo a los equipos trabajar de manera más eficiente y segura.
 10. A2: Investigad sobre la herramienta "GitHubCopilot".
 
+    GitHub Copilot es un innovador asistente de programación basado en IA lanzado por GitHub en 2021. Utiliza el modelo Codex de OpenAI, descendiente de los modelos GPT que centraban su formación en una amplia gama de lenguajes de programación y contextos de codificación. Por esta razón, se cree que GitHub Copilot es más capaz que ChatGPT para tareas de escritura de código.
+
+La característica más llamativa de GitHub Copilot es su perfecta integración en entornos de desarrollo populares, como Visual Studio Code. Al incrustarse directamente en el editor de código, GitHub Copilot actúa como un programador en pareja que ofrece sugerencias, completado de código y recomendaciones en tiempo real, todo lo cual exploraremos en profundidad.
 Vídeos de ayuda:  
 Subir proyecto desde GIT: https://www.youtube.com/watch?v=6WtA2dUDvPY  
 Clonar repositorio: https://www.youtube.com/watch?v=rcQBgm5vid0
