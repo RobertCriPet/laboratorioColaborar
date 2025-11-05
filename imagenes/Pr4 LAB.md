@@ -26,7 +26,19 @@ Las imágenes y este mismo archivo con su versión PDF deberán estar en GitHub.
 8. A1 y A2 : Subid los cambios y resolved el conflicto.
 ![ERROR.png](ERROR.png)
 ![solucion.png](solucion.png)
-9. A1:Investigad sobre la herramienta "CodeWithMe".  
+9. A1:Investigad sobre la herramienta "CodeWithMe".
+
+   **CodeWithMe** es una herramienta de codificación colaborativa de JetBrains que permite a los desarrolladores trabajar juntos en tiempo real en su IDE favorito. Colaboración en tiempo real: 
+   - Los usuarios pueden invitar a otros a su proyecto y trabajar juntos en el mismo tiempo, editando código y navegando por proyectos simultáneamente.
+   **Seguridad y privacidad:** 
+   - La herramienta garantiza la seguridad de los datos de la organización y permite un entorno de colaboración sin interrupciones.
+   **Facilidad de uso:** 
+   - No es necesario descargar nada; simplemente se puede iniciar una sesión desde la barra de herramientas del IDE.
+   **Funcionalidades adicionales:** 
+   - Incluye la posibilidad de compartir puertos, aplicaciones y realizar depuraciones en tiempo real, lo que facilita el trabajo en equipo y la resolución de problemas.
+   
+
+En resumen, CodeWithMe transforma la colaboración en el desarrollo de software, permitiendo a los equipos trabajar de manera más eficiente y segura.
 10. A2: Investigad sobre la herramienta "GitHubCopilot".
 
 Vídeos de ayuda:  
