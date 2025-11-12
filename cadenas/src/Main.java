@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        menu(sc);
+        menu();
     }
 
-    private static void menu(Scanner sc) {
+    private static void menu() {
         int valor;
         do {
             System.out.println(""" 
@@ -37,7 +37,7 @@ public class Main {
     private static void ejercicio1(){
         System.out.println("dime un texto");
         String texto = Utils.cadena();
-        String array[] = new String[texto.length()];
+        String[] array = new String[texto.length()];
         for (int i = 0; i < array.length; i++) {
             array[i]= String.valueOf(texto.charAt(i));
             System.out.println(array[i]);
