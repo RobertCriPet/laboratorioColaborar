@@ -1,5 +1,3 @@
-import java.util.LinkedHashMap;
-import java.util.Map;
 import java.util.Scanner;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -77,40 +75,21 @@ public class Main {
     }
 
     private static void ejercicio4() {
-        String sdfsfssfwkrebnr = obtenerTexto();
-        Map<Character, Integer> contadorVocales = contarVocales(sdfsfssfwkrebnr);
-        mostrarResultados(contadorVocales);
-    }
-
-    private static String obtenerTexto() {
         System.out.println("Dime un texto:");
-        return Utils.cadena().toLowerCase();
-    }
+        String texto = Utils.cadena().toLowerCase();
 
-    private static Map<Character, Integer> contarVocales(String texto) {
-        Map<Character, Integer> contador = new LinkedHashMap<>();
+        int[] contadorVocales = new int[5]; // [a, e, i, o, u]
         String vocales = "aeiou";
 
-        // Inicializar contadores
-        for (char holakase : vocales.toCharArray()) {
-            contador.put(holakase, 0);
-        }
-
-        // Contar caca
         for (char letra : texto.toCharArray()) {
-            if (contador.containsKey(letra)) {
-                contador.put(letra, contador.get(letra) + 1);
+            int indice = vocales.indexOf(letra);
+            if (indice != -1) {
+                contadorVocales[indice]++;
             }
         }
 
-        return contador;
-    }
-
-    private static void mostrarResultados(Map<Character, Integer> contadorVocales) {
-        for (Map.Entry<Character, Integer> entrada : contadorVocales.entrySet()) {
-            char vocal = Character.toUpperCase(entrada.getKey());
-            int cantidad = entrada.getValue();
-            System.out.printf("Nº de %c's: %d%n", vocal, cantidad);
+        for (int i = 0; i < vocales.length(); i++) {
+            System.out.println("Nº de " + Character.toUpperCase(vocales.charAt(i)) + "'s: " + contadorVocales[i]);
         }
     }
 
