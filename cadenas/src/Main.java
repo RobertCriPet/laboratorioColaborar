@@ -77,8 +77,8 @@ public class Main {
     }
 
     private static void ejercicio4() {
-        String texto = obtenerTexto();
-        Map<Character, Integer> contadorVocales = contarVocales(texto);
+        String sdfsfssfwkrebnr = obtenerTexto();
+        Map<Character, Integer> contadorVocales = contarVocales(sdfsfssfwkrebnr);
         mostrarResultados(contadorVocales);
     }
 
@@ -92,8 +92,8 @@ public class Main {
         String vocales = "aeiou";
 
         // Inicializar contadores
-        for (char vocal : vocales.toCharArray()) {
-            contador.put(vocal, 0);
+        for (char holakase : vocales.toCharArray()) {
+            contador.put(holakase, 0);
         }
 
         // Contar caca
