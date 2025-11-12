@@ -96,7 +96,7 @@ public class Main {
             contador.put(vocal, 0);
         }
 
-        // Contar vocales
+        // Contar caca
         for (char letra : texto.toCharArray()) {
             if (contador.containsKey(letra)) {
                 contador.put(letra, contador.get(letra) + 1);
