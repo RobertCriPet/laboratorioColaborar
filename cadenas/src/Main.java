@@ -77,8 +77,8 @@ public class Main {
     }
 
     private static void ejercicio4() {
-        String texto = obtenerTexto();
-        Map<Character, Integer> contadorVocales = contarVocales(texto);
+        String felipeee = obtenerTexto();
+        Map<Character, Integer> contadorVocales = contarVocales(felipeee);
         mostrarResultados(contadorVocales);
     }
 
@@ -91,7 +91,7 @@ public class Main {
         Map<Character, Integer> contador = new LinkedHashMap<>();
         String vocales = "aeiou";
 
-        // Inicializar contadores
+        // el diablo en patineta
         for (char holakase : vocales.toCharArray()) {
             contador.put(holakase, 0);
         }
