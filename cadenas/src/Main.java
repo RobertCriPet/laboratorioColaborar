@@ -74,30 +74,25 @@ public class Main {
 
     }
 
-    private static void ejercicio4(){
-        int a=0,e=0,i=0,o=0,u=0;
-        System.out.println("dime un texto");
+    private static void ejercicio4() {
+        System.out.println("Dime un texto:");
         String texto = Utils.cadena().toLowerCase();
-        for (int j = 0; j < texto.length(); j++) {
-            char letra = texto.charAt(j);
-            if(letra=='a'){
-                a++;
-            }else if(letra == 'e'){
-                e++;
-            }else if(letra == 'i'){
-                i++;
-            } else if (letra == 'o') {
-                o++;
-            } else if (letra== 'u') {
-                u++;
+
+        int[] contadorVocales = new int[5]; // [a, e, i, o, u]
+        String vocales = "aeiou";
+
+        for (char letra : texto.toCharArray()) {
+            int indice = vocales.indexOf(letra);
+            if (indice != -1) {
+                contadorVocales[indice]++;
             }
         }
-        System.out.println("Nº de A's: " +a);
-        System.out.println("Nº de E's: " +e);
-        System.out.println("Nº de I's: " +i);
-        System.out.println("Nº de O's: " +o);
-        System.out.println("Nº de U's: " +u);
+
+        for (int i = 0; i < vocales.length(); i++) {
+            System.out.println("Nº de " + Character.toUpperCase(vocales.charAt(i)) + "'s: " + contadorVocales[i]);
+        }
     }
+
 
     private static void ejercicio5(){
         System.out.println("dime un texto");
