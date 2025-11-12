@@ -25,7 +25,6 @@ public class Main {
                 case 1 -> ejercicio1();
                 case 2 -> ejercicio2();
                 case 3 -> ejercicio3();
-                case 4 -> ejercicio4();
                 case 5 -> ejercicio5();
                 case 6 -> System.out.println("Hasta luego!");
                 default -> System.out.println("Opcion no permitida");
@@ -73,24 +72,7 @@ public class Main {
 
     }
 
-    private static void ejercicio4() {
-        System.out.println("Dime un texto:");
-        String texto = Utils.cadena().toLowerCase();
 
-        int[] contadorVocales = new int[5]; // [a, e, i, o, u]
-        String vocales = "aeiou";
-
-        for (char letra : texto.toCharArray()) {
-            int indice = vocales.indexOf(letra);
-            if (indice != -1) {
-                contadorVocales[indice]++;
-            }
-        }
-
-        for (int i = 0; i < vocales.length(); i++) {
-            System.out.println("Nº de " + Character.toUpperCase(vocales.charAt(i)) + "'s: " + contadorVocales[i]);
-        }
-    }
 
 
     private static void ejercicio5(){
