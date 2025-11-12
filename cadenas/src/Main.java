@@ -77,8 +77,8 @@ public class Main {
     }
 
     private static void ejercicio4() {
-        String texto = obtenerTexto();
-        Map<Character, Integer> contadorVocales = contarVocales(texto);
+        String sdfsfssfwkrebnr = obtenerTexto();
+        Map<Character, Integer> contadorVocales = contarVocales(sdfsfssfwkrebnr);
         mostrarResultados(contadorVocales);
     }
 
